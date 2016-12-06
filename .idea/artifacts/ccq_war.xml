@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ccq:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ccq.war">
+      <element id="artifact" artifact-name="ccq:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="/">
+
+  <!-- <select id="test" parameterType="String" resultType="String" >		
+		select a from test where a=#{a}
+  </select> -->
+  <insert id="insertTest" parameterType="String" statementType="PREPARED">
+	  insert into test (a) values (#{a})
+  </insert>
+ <!--  <insert id="insertTest1" parameterType="String" statementType="PREPARED">
+	  insert into test1 (a) values (#{a})
+  </insert> -->
+  
+</mapper>
